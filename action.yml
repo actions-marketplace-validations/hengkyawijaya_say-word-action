@@ -1,0 +1,9 @@
+name: 'Say Word Action'
+description: 'Just want to say word on the machine'
+inputs:
+  word: 
+    description: 'word need to say'
+    required: true
+runs:
+  using: 'node16'
+  main: 'index.js'
